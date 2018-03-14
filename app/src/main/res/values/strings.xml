@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SampleConstraintLayou</string>
+
+    <string name="tab_1">Tips1</string>
+    <string name="tab_2">Tips2</string>
+    <string name="tab_3">Tips3</string>
+    <string name="tab_4">おまけ</string>
+    <string name="sample_1_title">Hello!! ConstraintLayout</string>
+    <string name="sample_1_text">ConstraintLayoutを使って\nレイアウトをしよう</string>
+    <string name="sample_1_button">挑戦する</string>
+    <string name="sample_1_dismiss">× 閉じる</string>
+    <string name="sample_2_read_label">既読</string>
+    <string name="sample_4_title">Hello!!\n ConstraintLayout</string>
+</resources>

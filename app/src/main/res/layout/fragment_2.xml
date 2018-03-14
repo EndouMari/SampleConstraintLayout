@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/contentsBackground"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/background_gray_corner_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/android"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@id/contentsBackground"
+        app:layout_constraintLeft_toLeftOf="@id/contentsBackground"
+        app:layout_constraintRight_toRightOf="@id/contentsBackground"
+        app:layout_constraintTop_toTopOf="@id/contentsBackground"
+        app:srcCompat="@drawable/ic_android" />
+
+    <Space
+        android:id="@+id/negativeMargin"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:layout_constraintBottom_toTopOf="@id/contentsBackground"
+        app:layout_constraintRight_toLeftOf="@id/contentsBackground" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toLeftOf="@id/negativeMargin"
+        app:layout_constraintTop_toTopOf="@id/negativeMargin"
+        app:srcCompat="@drawable/ic_close_vector" />
+
+</android.support.constraint.ConstraintLayout>
